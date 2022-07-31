@@ -1,0 +1,22 @@
+@import url(reset.css);
+@import url(cabecalho.css);
+@import url(hero.css);
+
+:root {
+    --laranja-principal: #FFAA00;
+    --azul-principal: #0049F1;
+    --azul-secundario: #618DF2;
+    ;
+}
+
+
+body {
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
