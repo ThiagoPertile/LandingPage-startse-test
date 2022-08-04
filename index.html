@@ -29,7 +29,7 @@
                     práticas de grandes profissionais do mercado!
                 </h2>
 
-                <a href="#" class="hero__btn">BAIXAR EBOOK GRÁTIS</a>
+                <a href="#form" class="hero__btn">BAIXAR EBOOK GRÁTIS</a>
 
                 <img class="hero__data" src="assets/img/hero__data.png" alt="">
             </div>
@@ -63,16 +63,24 @@
                             <h4>Como aplicar o conceito de CRM em todas as áreas</h4>
                         </li>
                     </ul>
-                    <a class="banner__btn" href="#">baixar Gratuitamente</a>
+                    <a class="banner__btn" href="#form">baixar Gratuitamente</a>
                 </div>
             </div>
         </section>
-        <section class="form__download">
+        <section class="form container" id="form">
             <h2>Preparece para o futuro</h2>
-            <div>
+            <div class="form__hero">
                 <img src="assets/img/form__img.png" alt="">
-                <div>
-                    <form action=""></form>
+                <div class="form__box">
+                    <h4 class="form__titulo">Acesso Instantâneo e Gratuito</h4>
+                    <h5 class="form__sub-titulo">Basta preencer os campos abaixo</h5>
+
+                    <label for="nome">nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="digite seu nome completo" required>
+                    <label for="nome">email</label>
+                    <input type="email" name="email" id="email" placeholder="Qual seu melhor email?" required>
+
+                    <input class="form__btn" type="submit" value="baixar Gratuitamente">
                 </div>
             </div>
         </section>
