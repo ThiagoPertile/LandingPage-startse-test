@@ -12,6 +12,7 @@
 
 .hero {
     display: flex;
+    padding: 0 24px;
 }
 
 .hero__left {
@@ -41,7 +42,7 @@
 
     color: var(--azul-secundario);
 
-    margin-bottom: 150px;
+    margin-bottom: 64px;
 }
 
 .hero__btn {
@@ -66,12 +67,15 @@
     transition: all ease-in-out 250ms;
 
     margin-bottom: 32px;
-}
 
-.hero__btn  {
     text-decoration: none;
     color: #ffffff;
 }
+
+/* .hero__btn  {
+    text-decoration: none;
+    color: #ffffff;
+} */
 
 .hero__btn:hover {
     cursor: pointer;

@@ -1,7 +1,7 @@
 @import url(reset.css);
 @import url(cabecalho.css);
 @import url(hero.css);
-
+@import url(banner.css);
 :root {
     --laranja-principal: #FFAA00;
     --azul-principal: #0049F1;
