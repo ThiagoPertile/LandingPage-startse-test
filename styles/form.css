@@ -19,6 +19,11 @@
     
 }
 
+.img__form {
+width: 566px;
+height: 616px;
+
+}
 .form__hero {
     display: flex;
     justify-content: space-around;
